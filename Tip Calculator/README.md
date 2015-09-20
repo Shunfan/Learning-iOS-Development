@@ -14,3 +14,7 @@ A simple iOS app that calculates tips for an amount of money.
 
 * UITextFieldDelegate
 * NSNumberFormatter
+
+## Reference & Tutorial
+
+* [Lecture 44: Tutorial - Tip Calculator App Introduction](https://www.udemy.com/make-iphone-apps-with-swift-and-ios-8/learn/#/lecture/1889442)
