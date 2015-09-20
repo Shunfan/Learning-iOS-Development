@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  TipCalculator
+//  Tip Calculator
 //
-//  Created by Shunfan Du on 9/19/15.
+//  Created by Shunfan Du on 9/20/15.
 //  Copyright © 2015 Shunfan Du. All rights reserved.
 //
 
