@@ -6,7 +6,7 @@ A simple iOS app that calculates tips for an amount of money.
 
 ## Screenshots
 
-![Screen Shot](Screen%20Shot.png)
+![Screen Shot](Screens%20Shot.png)
 
 ## Core classes and protocols used
 
