@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Lobster-Regular.ttf">
+            <string>Lobster-Regular</string>
+            <string>Lobster-Regular</string>
+            <string>Lobster-Regular</string>
+            <string>Lobster-Regular</string>
+            <string>Lobster-Regular</string>
+            <string>Lobster-Regular</string>
+            <string>Lobster-Regular</string>
+            <string>Lobster-Regular</string>
+            <string>Lobster-Regular</string>
+            <string>Lobster-Regular</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TipCalculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Title Circle" translatesAutoresizingMaskIntoConstraints="NO" id="iEL-ef-tzx">
+                                <rect key="frame" x="120" y="90" width="135" height="135"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="135" id="BpG-Wh-1q8"/>
+                                    <constraint firstAttribute="width" constant="135" id="fOH-rr-Rbr"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tip" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YHd-1h-vyh">
+                                <rect key="frame" x="165" y="110" width="44" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="0nb-zt-CPE"/>
+                                    <constraint firstAttribute="width" constant="44" id="rdE-FG-pHD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Lobster-Regular" family="Lobster" pointSize="36"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Calculator" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0GU-OC-Rc7">
+                                <rect key="frame" x="138" y="163" width="98" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="G8X-r5-i0c"/>
+                                    <constraint firstAttribute="width" constant="98" id="XXT-h7-huI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Lobster-Regular" family="Lobster" pointSize="24"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="Ckc-N3-XDN">
+                                <rect key="frame" x="131" y="316" width="113" height="36"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3jc-sS-hIJ">
+                                        <rect key="frame" x="0.0" y="0.0" width="113" height="30"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QtI-7F-dn2">
+                                                <rect key="frame" x="0.0" y="0.0" width="14" height="30"/>
+                                                <fontDescription key="fontDescription" name="Lobster-Regular" family="Lobster" pointSize="24"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0fW-Y4-ifK">
+                                                <rect key="frame" x="14" y="0.0" width="100" height="30"/>
+                                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="Lobster-Regular" family="Lobster" pointSize="24"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="done"/>
+                                            </textField>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="0fW-Y4-ifK" firstAttribute="leading" secondItem="QtI-7F-dn2" secondAttribute="trailing" id="LYl-HO-xms"/>
+                                        </constraints>
+                                    </stackView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Text Underline" translatesAutoresizingMaskIntoConstraints="NO" id="gMn-Sm-5vl">
+                                        <rect key="frame" x="0.0" y="33" width="113" height="3"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="8qF-5T-nVq"/>
+                                    <constraint firstAttribute="width" constant="113" id="hXH-ky-fKy"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Zsg-yD-FIQ">
+                                <rect key="frame" x="46" y="433" width="283" height="165"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="mvw-Za-MnZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="283" height="42"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BKJ-J6-5AV">
+                                                <rect key="frame" x="0.0" y="0.0" width="142" height="42"/>
+                                                <fontDescription key="fontDescription" name="Lobster-Regular" family="Lobster" pointSize="33"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$300.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yBO-T4-uyH">
+                                                <rect key="frame" x="142" y="0.0" width="142" height="42"/>
+                                                <fontDescription key="fontDescription" name="Lobster-Regular" family="Lobster" pointSize="33"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="WCF-PL-0sg">
+                                        <rect key="frame" x="0.0" y="62" width="283" height="42"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="17%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V1Q-0w-SdD">
+                                                <rect key="frame" x="0.0" y="0.0" width="142" height="42"/>
+                                                <fontDescription key="fontDescription" name="Lobster-Regular" family="Lobster" pointSize="33"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$450.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PVZ-NO-y5e">
+                                                <rect key="frame" x="142" y="0.0" width="142" height="42"/>
+                                                <fontDescription key="fontDescription" name="Lobster-Regular" family="Lobster" pointSize="33"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="8Xw-jz-W5I">
+                                        <rect key="frame" x="0.0" y="123" width="283" height="42"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1hZ-KS-J4k">
+                                                <rect key="frame" x="0.0" y="0.0" width="142" height="42"/>
+                                                <fontDescription key="fontDescription" name="Lobster-Regular" family="Lobster" pointSize="33"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$600.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="coo-oA-NRA">
+                                                <rect key="frame" x="142" y="0.0" width="142" height="42"/>
+                                                <fontDescription key="fontDescription" name="Lobster-Regular" family="Lobster" pointSize="33"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.38431372549019605" green="0.63529411764705879" blue="0.92549019607843142" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="0GU-OC-Rc7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1Bj-QL-3Ok"/>
+                            <constraint firstItem="Ckc-N3-XDN" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="9EB-co-cVb"/>
+                            <constraint firstItem="Ckc-N3-XDN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AaI-0B-4Ce"/>
+                            <constraint firstItem="iEL-ef-tzx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IKf-Ro-xxt"/>
+                            <constraint firstItem="Zsg-yD-FIQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="Mgj-IV-cVT" userLabel="Tip Labels.leading = leadingMargin + 30"/>
+                            <constraint firstItem="iEL-ef-tzx" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="70" id="Sei-hR-LUy"/>
+                            <constraint firstItem="iEL-ef-tzx" firstAttribute="top" secondItem="YHd-1h-vyh" secondAttribute="bottom" constant="-65" id="hZ1-5k-mmZ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Zsg-yD-FIQ" secondAttribute="bottom" constant="70" id="ioM-Xk-CNr"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Zsg-yD-FIQ" secondAttribute="trailing" constant="30" id="pdo-mE-Ynb" userLabel="trailingMargin = Tip Labels.trailing + 30"/>
+                            <constraint firstItem="0GU-OC-Rc7" firstAttribute="top" secondItem="YHd-1h-vyh" secondAttribute="bottom" constant="8" id="sEF-XQ-0yd"/>
+                            <constraint firstItem="YHd-1h-vyh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xH8-mt-0Yv"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="amountTextField" destination="0fW-Y4-ifK" id="tjW-jj-uwl"/>
+                        <outlet property="tip15Label" destination="yBO-T4-uyH" id="kZq-fs-Mcv"/>
+                        <outlet property="tip17Label" destination="PVZ-NO-y5e" id="QZV-bw-lTz"/>
+                        <outlet property="tip20Label" destination="coo-oA-NRA" id="k37-OT-Qgj"/>
+                        <outlet property="tipLabels" destination="Zsg-yD-FIQ" id="nrI-GC-20v"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="439.5" y="349.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Text Underline" width="113" height="3"/>
+        <image name="Title Circle" width="139" height="139"/>
+    </resources>
+</document>
